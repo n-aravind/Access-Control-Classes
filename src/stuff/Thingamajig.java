@@ -7,5 +7,6 @@ public class Thingamajig extends Widget {
         Thingamajig thingamajig = new Thingamajig();
         System.out.println(thingamajig.name1);
         System.out.println(thingamajig.name2);
+        //Cannot access empty and private access modifiers
     }
 }
