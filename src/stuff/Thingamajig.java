@@ -9,4 +9,9 @@ public class Thingamajig extends Widget {
         System.out.println(thingamajig.name2);
         //Cannot access empty and private access modifiers
     }
+
+    public void method(){
+        System.out.println(name1);
+        System.out.println(name2);
+    }
 }

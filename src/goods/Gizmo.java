@@ -10,4 +10,12 @@ public class Gizmo {
         // Cannot access the private access modifier
     }
 
+    public void method(){
+        Widget widget = new Widget();
+        System.out.println(widget.name1);
+        System.out.println(widget.name2);
+        System.out.println(widget.name3);
+    }
+
+
 }

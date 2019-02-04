@@ -9,4 +9,9 @@ public class Doodad {
         System.out.println(widget.name1);
         //Can only access the public access modifier
     }
+
+    public void method(){
+        Widget widget = new Widget();
+        System.out.println(widget.name1);
+    }
 }
